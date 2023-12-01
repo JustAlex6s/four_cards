@@ -1,0 +1,143 @@
+/*Mobile: 375px
+Desktop: 1440px
+Colors
+
+Primary
+
+Red: hsl(0, 78%, 62%)
+Cyan: hsl(180, 62%, 55%)
+Orange: hsl(34, 97%, 64%)
+Blue: hsl(212, 86%, 64%)
+
+Neutral
+
+Very Dark Blue: hsl(234, 12%, 34%)
+Grayish Blue: hsl(229, 6%, 66%)
+Very Light Gray: hsl(0, 0%, 98%)
+
+Body Copy
+
+Font size: 15px
+Fonts
+
+Family: Poppins
+Weights: 200, 400, 600
+*/
+@media (max-width: 1600px) {
+  body {
+    font-size: 15px;
+    font-family: "Poppins";
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .global-section {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .global-section__content {
+    text-align: center;
+    align-items: center;
+  }
+  .global-section__title {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+  }
+  .global-section__title2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .global-section__description {
+    color: hsl(229, 6%, 66%);
+  }
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .global-card {
+    border-radius: 5px;
+    box-shadow: 0px 11px 10px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    height: 180px;
+    margin: 15px;
+    background-color: white;
+  }
+  .global-card--supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+  }
+  .global-card--team {
+    border-top: 3px solid hsl(0, 78%, 62%);
+  }
+  .global-card--karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+  }
+  .global-card--calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+  }
+  .global-card__title {
+    color: hsl(234, 12%, 34%);
+    font-weight: 400;
+  }
+  .global-card__title2 {
+    font-weight: 200;
+  }
+  .global-card--description {
+    font-weight: 200;
+  }
+  img {
+    float: right;
+  }
+}
+@media (max-width: 380px) {
+  body {
+    font-size: 13px;
+    font-family: "Poppins";
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .global-section {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  .global-section__content {
+    text-align: center;
+    align-items: center;
+  }
+  .global-section__title {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    font-size: 18px;
+  }
+  .global-section__title2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .global-section__description {
+    color: hsl(229, 6%, 66%);
+  }
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .global-card {
+    border-radius: 5px;
+    box-shadow: 0px 11px 10px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 230px;
+    height: 160px;
+    margin: 15px;
+    background-color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
